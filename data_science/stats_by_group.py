@@ -2,7 +2,7 @@
 # each group
 #
 # Reference:
-# https://towardsdatascience.com/how-to-read-csv-file-using-pandas-ab1f5e7e7b58
+# https://datascienceparichay.com/article/pandas-groupby-median/
 
 import pandas as pd
 
@@ -17,6 +17,7 @@ print(df)
 
 print('\nA data frame can be grouped by one or more columns')
 df_groups = df.groupby('ZipCode')
+
 print('Then aggregate functions can be run on a column for each group')
 median_by_zip = df_groups ['SalePrice'].median()
 average_by_zip = df_groups ['SalePrice'].mean()
