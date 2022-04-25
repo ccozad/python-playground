@@ -28,9 +28,29 @@ It's recommended that you use a virtual environment to run each group of scripts
 
 `python3 <script_name>.py`
 
+## Deactivate virtual environment
+
+`deactivate`
+
+# Testing
+
+## Install pytest
+
+`pip3 install -U pytest`
+
+## Run tests
+
+`pytest -rA`
+
 # Topics
 Here's what you can find here:
 
+## Algorithms
+- Binary search, an efficent search for sorted lists
+   - `pytest` to run tests in`test_binary_search_client.py`
+
 ## Data Science
-- Group data and then find statistics for each group `stats_by_group.py`
-- Load CSV into a pandas dataframe `load_csv.py`
+- Group data and then find statistics for each group 
+   - `python3 stats_by_group.py`
+- Load CSV into a pandas dataframe 
+   - `python3 load_csv.py`
