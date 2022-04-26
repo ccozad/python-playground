@@ -56,6 +56,8 @@ Here's what you can find here:
  - [Group data and then find statistics for each group](/data_science/stats_by_group.py)
    - `python3 stats_by_group.py`
 
+## [Interview Questions](/interview_questions/)
+ - [Fizz Buzz](/interview_questions/fizz_buzz.py) A test that makes sure you can apply simple rules and cover all cases
 
 ## [Standard Library](/standard_library/)
  - Represent binary data as plain text using [base64 encode and decode](/standard_library/base64_example.py)
