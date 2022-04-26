@@ -49,12 +49,12 @@ It's recommended that you use a virtual environment to run each group of scripts
 # Topics
 Here's what you can find here:
 
-## Algorithms
+## [Algorithms](/algorithms/README.md)
 - Binary search, an efficent search for sorted lists
    - `pytest` to run tests in`test_binary_search_client.py`
 
-## Azure
- - Blob Storage (Ubiqutous file storage on Azure)
+## [Azure](/azure/README.md)
+ - [Blob Storage](/azure/blob_storage/README.md) Ubiqutous file storage on Azure
    - Create container `python3 create_container.py`
    - List containers `python3 list_containers.py`
    - Upload blob `python3 upload_blob.py`
@@ -67,6 +67,6 @@ Here's what you can find here:
 - Load CSV into a pandas dataframe 
    - `python3 load_csv.py`
 
-## Standard Library
+## [Standard Library](/standard_library/README.md)
  - Represent binary data as plain text using base64 Encode and decode
     - `python3 base64_example.py`
