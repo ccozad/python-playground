@@ -5,7 +5,8 @@
 
 import pandas as pd
 
-df = pd.read_csv("price_data.csv")
+if __name__ == "__main__":
+    df = pd.read_csv("price_data.csv")
 
-print('\nHere is the data frame we loaded from a csv file')
-print(df)
+    print('\nHere is the data frame we loaded from a csv file')
+    print(df)
