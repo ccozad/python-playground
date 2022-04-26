@@ -10,4 +10,4 @@ All standard library examples are exercised by way of unit tests using PyTest. R
 
  - [base64 encode and decode](/standard_library/base64_example.py) A way to represent binary information using plain text
 
-# [All Examples](/README.md)
+**[Back to start](/README.md)**
