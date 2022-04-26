@@ -66,3 +66,7 @@ Here's what you can find here:
    - `python3 stats_by_group.py`
 - Load CSV into a pandas dataframe 
    - `python3 load_csv.py`
+
+## Standard Library
+ - Represent binary data as plain text using base64 Encode and decode
+    - `python3 base64_example.py`
