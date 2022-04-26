@@ -28,3 +28,5 @@ All of the examples have guards if they are run before preconditions are met. Th
   - **Blob Storage** A type of storage that treats files as binary blobs that can be treated as blocks or content that can be streamed using REST calls
   - **Container** A collection of blobs in a storage account
   - **Blob** An individual binary stored in a container that can be accessed as a block or streamed content
+
+# [All Examples](/README.md)
