@@ -34,7 +34,7 @@ It's recommended that you use a virtual environment to run each group of scripts
 Here's what you can find here:
 
 ## [Algorithms](/algorithms/)
-- [Binary search](/algorithms/binary_search_client.py) an efficent search for sorted lists`
+- [Binary search](/algorithms/binary_search_client.py) an efficent search for sorted lists
 
 ## [Azure](/azure/)
  - [Blob Storage](/azure/blob_storage/README.md) ubiqutous file storage on Azure
