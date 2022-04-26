@@ -21,3 +21,10 @@ All of the examples have guards if they are run before preconditions are met. Th
  3. `upload_blob.py`
  4. `list_blobs.py`
  5. `download_blob.py`
+
+ # Key Terms
+
+  - **Storage Account** An umbrella for many types of storage assets such as blob storage, queues and file shares
+  - **Blob Storage** A type of storage that treats files as binary blobs that can be treated as blocks or content that can be streamed using REST calls
+  - **Container** A collection of blobs in a storage account
+  - **Blob** An individual binary stored in a container that can be accessed as a block or streamed content

@@ -51,10 +51,11 @@ Here's what you can find here:
      - `python3 download_blob.py`
 
 ## Data Science
-- [Group data and then find statistics for each group](/data_science/stats_by_group.py)
-   - `python3 stats_by_group.py`
-- [Load CSV into a pandas dataframe](/data_science/load_csv.py) 
+ - [Load CSV into a pandas dataframe](/data_science/load_csv.py) 
    - `python3 load_csv.py`
+ - [Group data and then find statistics for each group](/data_science/stats_by_group.py)
+   - `python3 stats_by_group.py`
+
 
 ## [Standard Library](/standard_library/README.md)
  - Represent binary data as plain text using [base64 encode and decode](/standard_library/base64_example.py)

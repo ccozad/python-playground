@@ -8,6 +8,4 @@ All standard library examples are exercised by way of unit tests using PyTest. R
 
 # Topics
 
-## base64 Encode and Decode
-
-A way to represent binary information using plain text.
+ - [base64 encode and decode](/base64_example.py) A way to represent binary information using plain text.
