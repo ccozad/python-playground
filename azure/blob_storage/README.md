@@ -29,4 +29,4 @@ All of the examples have guards if they are run before preconditions are met. Th
   - **Container** A collection of blobs in a storage account
   - **Blob** An individual binary stored in a container that can be accessed as a block or streamed content
 
-# [All Examples](https://github.com/ccozad/python-playground)
+**[Back to start](https://github.com/ccozad/python-playground)**
