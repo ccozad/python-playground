@@ -14,7 +14,7 @@ Each group of examples will typically require one or more environment variables 
 
 # Services
 
- - [Blob Storage](/azure/blob_storage/README.md) ubiqutous file storage on Azure
+ - [Blob Storage](/azure/blob_storage/) ubiqutous file storage on Azure
    - [Create container](/azure/blob_storage/create_container.py) 
      - `python3 create_container.py`
    - [List containers](/azure/blob_storage/list_containers.py) 
@@ -26,4 +26,4 @@ Each group of examples will typically require one or more environment variables 
    - [Download blob](/azure/blob_storage/download_blob.py) 
      - `python3 download_blob.py`
 
-**[Back to start](/README.md)**
+**[Back to start](/)**

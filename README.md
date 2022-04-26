@@ -33,11 +33,11 @@ It's recommended that you use a virtual environment to run each group of scripts
 # Topics
 Here's what you can find here:
 
-## [Algorithms](/algorithms/README.md)
+## [Algorithms](/algorithms/)
 - [Binary search](/algorithms/binary_search_client.py) an efficent search for sorted lists
    - `pytest` to run tests in`test_binary_search_client.py`
 
-## [Azure](/azure/README.md)
+## [Azure](/azure/)
  - [Blob Storage](/azure/blob_storage/README.md) ubiqutous file storage on Azure
    - [Create container](/azure/blob_storage/create_container.py) 
      - `python3 create_container.py`
@@ -50,13 +50,13 @@ Here's what you can find here:
    - [Download blob](/azure/blob_storage/download_blob.py) 
      - `python3 download_blob.py`
 
-## [Data Science](/data_science/README.md)
+## [Data Science](/data_science/)
  - [Load CSV into a pandas dataframe](/data_science/load_csv.py) 
    - `python3 load_csv.py`
  - [Group data and then find statistics for each group](/data_science/stats_by_group.py)
    - `python3 stats_by_group.py`
 
 
-## [Standard Library](/standard_library/README.md)
+## [Standard Library](/standard_library/)
  - Represent binary data as plain text using [base64 encode and decode](/standard_library/base64_example.py)
     - `python3 base64_example.py`
