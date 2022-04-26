@@ -8,7 +8,7 @@ All algorithms are exercised by way of unit tests using PyTest. Running PyTest f
 
 # Algorithms
 
-## Binary Search
+## [Binary Search](/algorithms/binary_search_client.py)
 
 Binary search is a divide and conquer search algorithm that splits the search space in half with each pass. It has a worst case performance of O(log n). Binary Search relies on the data being pre-sorted to take advantage of the ording to decide which half of the search space to eliminate. See the Wikipedia article on Binary Search for more details: https://en.wikipedia.org/wiki/Binary_search_algorithm 
 
