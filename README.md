@@ -34,7 +34,7 @@ It's recommended that you use a virtual environment to run each group of scripts
 Here's what you can find here:
 
 ## [Algorithms](/algorithms/)
-- [Binary search](/algorithms/binary_search_client.py) an efficent search for sorted lists
+- [Binary search](/algorithms/binary_search_client.py) an efficent search within sorted lists
 - [Merge sort](/algorithms/merge_sort_client.py) an efficient way to sort a list
 
 ## [Azure](/azure/)
