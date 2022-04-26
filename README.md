@@ -35,6 +35,7 @@ Here's what you can find here:
 
 ## [Algorithms](/algorithms/)
 - [Binary search](/algorithms/binary_search_client.py) an efficent search for sorted lists
+- [Merge sort](/algorithms/merge_sort_client.py) an efficient way to sort a list
 
 ## [Azure](/azure/)
  - [Blob Storage](/azure/blob_storage/README.md) ubiqutous file storage on Azure
