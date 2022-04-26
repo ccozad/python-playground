@@ -50,7 +50,7 @@ Here's what you can find here:
    - [Download blob](/azure/blob_storage/download_blob.py) 
      - `python3 download_blob.py`
 
-## Data Science
+## [Data Science](/data_science/README.md)
  - [Load CSV into a pandas dataframe](/data_science/load_csv.py) 
    - `python3 load_csv.py`
  - [Group data and then find statistics for each group](/data_science/stats_by_group.py)
