@@ -34,31 +34,22 @@ It's recommended that you use a virtual environment to run each group of scripts
 Here's what you can find here:
 
 ## [Algorithms](/algorithms/)
-- [Binary search](/algorithms/binary_search_client.py) an efficent search for sorted lists
-   - `pytest` to run tests in`test_binary_search_client.py`
+- [Binary search](/algorithms/binary_search_client.py) an efficent search for sorted lists`
 
 ## [Azure](/azure/)
  - [Blob Storage](/azure/blob_storage/README.md) ubiqutous file storage on Azure
    - [Create container](/azure/blob_storage/create_container.py) 
-     - `python3 create_container.py`
    - [List containers](/azure/blob_storage/list_containers.py) 
-     - `python3 list_containers.py`
    - [Upload blob](/azure/blob_storage/upload_blob.py) 
-     - `python3 upload_blob.py`
    - [List blobs](/azure/blob_storage/list_blobs.py) 
-     - `python3 list_blobs.py`
    - [Download blob](/azure/blob_storage/download_blob.py) 
-     - `python3 download_blob.py`
 
 ## [Data Science](/data_science/)
  - [Load CSV into a pandas dataframe](/data_science/load_csv.py) 
-   - `python3 load_csv.py`
  - [Group data and then find statistics for each group](/data_science/stats_by_group.py)
-   - `python3 stats_by_group.py`
 
 ## [Interview Questions](/interview_questions/)
  - [Fizz Buzz](/interview_questions/fizz_buzz.py) A test that makes sure you can apply simple rules and cover all cases
 
 ## [Standard Library](/standard_library/)
  - Represent binary data as plain text using [base64 encode and decode](/standard_library/base64_example.py)
-    - `python3 base64_example.py`
