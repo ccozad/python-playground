@@ -8,7 +8,7 @@ All standard library examples are exercised by way of unit tests using PyTest. R
 
 # Topics
 
- - [base64 encode and decode](/standard_library/base64_example.py) A way to represent binary information using plain text
- - [json encode and decode](/standard_library/json_example.py) A way to share data structures across languages and systems
+ - [Base64 encode and decode](/standard_library/base64_example.py) A way to represent binary information using plain text
+ - [JSON encode and decode](/standard_library/json_example.py) A way to share data structures across languages and systems
 
 **[Back to start](https://github.com/ccozad/python-playground)**

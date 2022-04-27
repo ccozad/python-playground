@@ -4,6 +4,6 @@ Python has a wide variety of built in math functions and a wide variety of math 
 
 # Topics
 
- - [multiply matrices](/math/multiply_matrices.py) Solve a system of linear equations using matrices
+ - [Multiply matrices](/math/multiply_matrices.py) Solve a system of linear equations using matrices
 
 **[Back to start](https://github.com/ccozad/python-playground)**
