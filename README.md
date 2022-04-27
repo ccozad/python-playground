@@ -52,6 +52,9 @@ Here's what you can find here:
 ## [Interview Questions](/interview_questions/)
  - [Fizz Buzz](/interview_questions/fizz_buzz.py) A test that makes sure you can apply simple rules and cover all cases
 
+## [Math](/math/)
+ - [multiply matrices](/math/multiply_matrices.py) Solve a system of linear equations using matrices
+
 ## [Standard Library](/standard_library/)
  - [base64 encode and decode](/standard_library/base64_example.py) A way to represent binary information using plain text
  - [json encode and decode](/standard_library/json_example.py) A way to share data structures across languages and systems
