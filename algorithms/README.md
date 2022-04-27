@@ -10,6 +10,10 @@ All algorithms are exercised by way of unit tests using PyTest. Running PyTest f
 
 ## [Binary Search](/algorithms/binary_search_client.py)
 
-Binary search is a divide and conquer search algorithm that splits the search space in half with each pass. It has a worst case performance of O(log n). Binary Search relies on the data being pre-sorted to take advantage of the ording to decide which half of the search space to eliminate. See the Wikipedia article on Binary Search for more details: https://en.wikipedia.org/wiki/Binary_search_algorithm 
+Binary search is a divide and conquer search algorithm that splits the search space in half with each pass. It has a worst case performance of O(log n). Binary Search relies on the data being pre-sorted to take advantage of the ording to decide which half of the search space to eliminate. See the Wikipedia article on binary search for more details: https://en.wikipedia.org/wiki/Binary_search_algorithm 
+
+## [Merge Sort](/algorithms/merge_sort_client.py)
+
+Merge sort is a divide and conquer sorting algorithm that sorts small lists and merges the smaller lists into larger lists with the correct ordering. Merge sort has a worse case performace of O(n log n). See the Wikipedia article on merge sort for more details: https://en.wikipedia.org/wiki/Merge_sort 
 
 **[Back to start](https://github.com/ccozad/python-playground)**
