@@ -51,6 +51,7 @@ Here's what you can find here:
 
 ## [Interview Questions](/interview_questions/)
  - [Fizz Buzz](/interview_questions/fizz_buzz.py) A test that makes sure you can apply simple rules and cover all cases
+ - [Swap Numbers](/interview_questions/swap_numbers.py) Write a few cryptic calculations to placate an interviewer trying to trick you
 
 ## [Math](/math/)
  - [Multiply matrices](/math/multiply_matrices.py) Solve a system of linear equations using matrices
