@@ -13,7 +13,7 @@ def decode(data):
 
 if __name__ == "__main__":
     # We can use a python dictionary directly to have syntax that looks
-    # like JSON before we've even encoded anything
+    # close to JSON before we've even encoded anything
     data = {
         'firstName': 'Jane',
         'lastName': 'Doe',
