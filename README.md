@@ -35,6 +35,7 @@ Here's what you can find here:
 
 ## [Algorithms](/algorithms/)
 - [Binary search](/algorithms/binary_search_client.py) an efficent search within sorted lists
+- [Binary Search Tree](/algorithms/binary_tree.py) a specially organized binary tree that allows divide and conquer searches
 - [Merge sort](/algorithms/merge_sort_client.py) an efficient way to sort a list
 
 ## [Azure](/azure/)

@@ -1,4 +1,5 @@
 from logging import NullHandler
+from turtle import right
 
 
 class BinaryTreeNode:
@@ -42,6 +43,22 @@ class BinarySearchTree:
             
             return inserted_node
     
+     # Keep going right until we run out of nodes
+    def tree_max(self, start_node: BinaryTreeNode):
+        current_node = start_node
+        while current_node.right is not None:
+            current_node = current_node.right
+        
+        return current_node
+    
+    # Keep going left until we run out of nodes
+    def tree_min(self, start_node: BinaryTreeNode):
+        current_node = start_node
+        while current_node.left is not None:
+            current_node = current_node.left
+        
+        return current_node
+    
     # Transfer old linkages to new linkages
     def shift(self, old_node: BinaryTreeNode, new_node: BinaryTreeNode):
         if old_node.parent is None:
@@ -53,6 +70,18 @@ class BinarySearchTree:
         
         if new_node is not None:
             new_node.parent = old_node.parent
+
+    def successor(self, start_node: BinaryTreeNode):
+        if start_node.right is not None:
+            return self.tree_min(start_node.right)
+        
+        current_node = start_node
+        parent_node = start_node.parent
+        while parent_node is not None and parent_node.right is not None and current_node.data == parent_node.right.data:
+            current_node = parent_node
+            parent_node = parent_node.parent
+        
+        return parent_node
 
     # The simplest deletion happens when we are on a leaf node or alsmost at
     # at a leaf node. Things get more complicated when we delete an item from
@@ -66,6 +95,16 @@ class BinarySearchTree:
             self.shift(target_node, target_node.right)
         elif target_node.right is None:
             self.shift(target_node, target_node.left)
+        else:
+            node = self.successor(target_node)
+            if node.parent.data != data:
+                self.shift(node, node.right)
+                node.right = target_node.right
+                node.right.parent = node
+            self.shift(target_node, node)
+            node.left = target_node.left
+            node.left.parent = node
+
     
     # We can divide and conquer through the tree because of the
     # properties enforced by insert and delete.
@@ -78,19 +117,4 @@ class BinarySearchTree:
                 current_node = current_node.right
         
         return current_node
-    
-    # Keep going right until we run out of nodes
-    def max(self, start_node: BinaryTreeNode):
-        current_node = start_node
-        while current_node.right is not None:
-            current_node = current_node.right
-        
-        return current_node
-    
-    # Keep going left until we run out of nodes
-    def min(self, start_node: BinaryTreeNode):
-        current_node = start_node
-        while current_node.left is not None:
-            current_node = current_node.left
-        
-        return current_node
+

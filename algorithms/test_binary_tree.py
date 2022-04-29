@@ -42,7 +42,7 @@ def test_binary_search_tree_find():
     assert result4 is None
     assert result5 is None
 
-def test_binary_search_tree_min():
+def test_binary_search_tree_tree_min():
     binary_search_tree = binary_tree.BinarySearchTree()
     binary_search_tree.insert(5)
     binary_search_tree.insert(3)
@@ -53,11 +53,11 @@ def test_binary_search_tree_min():
     binary_search_tree.insert(1)
     root = binary_search_tree.root
 
-    min = binary_search_tree.min(root)
+    min = binary_search_tree.tree_min(root)
     
     assert min.data == 1
 
-def test_binary_search_tree_max():
+def test_binary_search_tree_tree_max():
     binary_search_tree = binary_tree.BinarySearchTree()
     binary_search_tree.insert(5)
     binary_search_tree.insert(3)
@@ -68,7 +68,7 @@ def test_binary_search_tree_max():
     binary_search_tree.insert(12)
     root = binary_search_tree.root
 
-    max = binary_search_tree.max(root)
+    max = binary_search_tree.tree_max(root)
     
     assert max.data == 12
 
@@ -91,3 +91,21 @@ def test_binary_search_tree_delete_shift_left():
     binary_search_tree.delete(root, 5)
     
     assert binary_search_tree.root.data == 3
+
+def test_binary_search_tree_delete_complex():
+    binary_search_tree = binary_tree.BinarySearchTree()
+    binary_search_tree.insert(5)
+    binary_search_tree.insert(3)
+    binary_search_tree.insert(10)
+    binary_search_tree.insert(7)
+    binary_search_tree.insert(8)
+    root = binary_search_tree.root
+
+    binary_search_tree.delete(root, 5)
+
+    root = binary_search_tree.root
+
+    assert root.data == 7
+    assert root.left.data == 3
+    assert root.right.data == 10
+    assert root.right.left.data == 8
