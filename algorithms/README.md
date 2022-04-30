@@ -16,6 +16,10 @@ Binary search is a divide and conquer search algorithm that splits the search sp
 
 A Binary Tree is a tree data structure where each node can have one parent and no more than two children, called the parent, left and right respectively. We can take this data structure and add a constraint that for a given node, all nodes to the left are less than the node and all nodes to the right are greater than the node. This bifurcation allows divide and conquer techniques to be used. Search performance depends on the height of the tree and is expressed as O(h) where h is the height of the tree. "unbalanced" trees where the height may approach n, the number of nodes, in which case search performance is similar to a linked list. See the Wikipedia article on Binary Search Trees for more details: https://en.wikipedia.org/wiki/Binary_search_tree
 
+## [Hamming distance](/algorithms/hamming_distance.py) 
+
+Number of positions in which symbols differ for two equal length strings. Read more at https://en.wikipedia.org/wiki/Hamming_distance 
+
 ## [Inorder Tree Traversal](/algorithms/binary_search_tree_walker.py) 
 
 The nodes of a binary tree can be visited in a variety of ways. The inorder traversal uses a stack to sequence nodes correctly and results in the nodes being visited in ascending order.

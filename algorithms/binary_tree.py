@@ -1,7 +1,6 @@
 from logging import NullHandler
 from turtle import right
 
-
 class BinaryTreeNode:
     def __init__(self, data, parent = None, left = None, right = None):
         self.data = data

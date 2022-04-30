@@ -37,6 +37,7 @@ Here's what you can find here:
 ## [Algorithms](/algorithms/)
 - [Binary search](/algorithms/binary_search_client.py) an efficent search within sorted lists
 - [Binary search tree](/algorithms/binary_tree.py) a specially organized binary tree that allows divide and conquer searches
+- [Hamming distance](/algorithms/hamming_distance.py) Number of positions in which symbols differ for two equal length strings
 - [Inorder tree traversal](/algorithms/binary_search_tree_walker.py) Traverse a binary search tree inorder to list nodes in sorted ascending order
 - [Merge sort](/algorithms/merge_sort_client.py) an efficient way to sort a list
 - [Reverse inorder tree traversal](/algorithms/binary_search_tree_walker.py) Traverse a binary search tree in reverse inorder to list nodes in sorted descending order
