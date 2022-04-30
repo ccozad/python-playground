@@ -42,12 +42,15 @@ Here's what you can find here:
 - [Reverse Inorder Tree Traversal](/algorithms/binary_search_tree_walker.py) Traverse a binary search tree in reverse inorder to list nodes in sorted descending order
 
 ## [Azure](/azure/)
- - [Blob Storage](/azure/blob_storage/README.md) ubiqutous file storage on Azure
+ - [Blob Storage](/azure/blob_storage/) ubiqutous file storage on Azure
    - [Create container](/azure/blob_storage/create_container.py) 
    - [List containers](/azure/blob_storage/list_containers.py) 
    - [Upload blob](/azure/blob_storage/upload_blob.py) 
    - [List blobs](/azure/blob_storage/list_blobs.py) 
-   - [Download blob](/azure/blob_storage/download_blob.py) 
+   - [Download blob](/azure/blob_storage/download_blob.py)
+ - [Key Vault](/azure/key_vault/) Secret storage and crypto operations on Azure
+   - [Set secret](/azure/key_vault/set_secret.py)
+   - [Get secret](/azure/key_vault/get_secret.py)
 
 ## [Data Science](/data_science/)
  - [Load CSV into a pandas dataframe](/data_science/load_csv.py) 
