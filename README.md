@@ -48,7 +48,7 @@ Here's what you can find here:
    - [Upload blob](/azure/blob_storage/upload_blob.py) 
    - [List blobs](/azure/blob_storage/list_blobs.py) 
    - [Download blob](/azure/blob_storage/download_blob.py)
- - [Key Vault](/azure/key_vault/) Secret storage and crypto operations on Azure
+ - [Key Vault](/azure/key_vault/) secret storage and crypto operations on Azure
    - [Set secret](/azure/key_vault/set_secret.py)
    - [Get secret](/azure/key_vault/get_secret.py)
 
