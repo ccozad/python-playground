@@ -1,6 +1,7 @@
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/ccozad/python-playground)
 ![GitHub top language](https://img.shields.io/github/languages/top/ccozad/python-playground)
 ![GitHub](https://img.shields.io/github/license/ccozad/python-playground)
+[![Run Python Tests](https://github.com/ccozad/python-playground/actions/workflows/pytest.yml/badge.svg)](https://github.com/ccozad/python-playground/actions/workflows/pytest.yml)
 
 # Overview
  A collection of random Python solutions. If anything helps you here please give this repo a star.
