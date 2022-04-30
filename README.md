@@ -67,3 +67,22 @@ Here's what you can find here:
 ## [Standard Library](/standard_library/)
  - [Base64 encode and decode](/standard_library/base64_example.py) A way to represent binary information using plain text
  - [JSON encode and decode](/standard_library/json_example.py) A way to share data structures across languages and systems
+
+# Support
+ - How do I request a change?
+   - Please submit an issue or a pull request
+ - How fast will my request be added?
+   - Probably not very fast for requests outside of a support package because this repo is maintained by a working professional
+   - If you require fast, predictable responses, please purchase a support package
+ - Can support package be purchased?
+   - Yes, various support packages can be purchased and customized for your needs. Support areas available include:
+   - On demand support videos
+   - 1:1 and team coaching
+   - New features and other modifications
+
+## License
+
+Licensed under
+
+ - MIT license
+   ([LICENSE-MIT](LICENSE-MIT) or http://opensource.org/licenses/MIT)
