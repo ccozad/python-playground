@@ -16,8 +16,16 @@ Binary search is a divide and conquer search algorithm that splits the search sp
 
 A Binary Tree is a tree data structure where each node can have one parent and no more than two children, called the parent, left and right respectively. We can take this data structure and add a constraint that for a given node, all nodes to the left are less than the node and all nodes to the right are greater than the node. This bifurcation allows divide and conquer techniques to be used. Search performance depends on the height of the tree and is expressed as O(h) where h is the height of the tree. "unbalanced" trees where the height may approach n, the number of nodes, in which case search performance is similar to a linked list. See the Wikipedia article on Binary Search Trees for more details: https://en.wikipedia.org/wiki/Binary_search_tree
 
+## [Inorder Tree Traversal](/algorithms/binary_search_tree_walker.py) 
+
+The nodes of a binary tree can be visited in a variety of ways. The inorder traversal uses a stack to sequence nodes correctly and results in the nodes being visited in ascending order.
+
 ## [Merge Sort](/algorithms/merge_sort_client.py)
 
 Merge sort is a divide and conquer sorting algorithm that sorts small lists and merges the smaller lists into larger lists with the correct ordering. Merge sort has a worse case performace of O(n log n). See the Wikipedia article on merge sort for more details: https://en.wikipedia.org/wiki/Merge_sort 
+
+## [Reverse Inorder Tree Traversal](/algorithms/binary_search_tree_walker.py) 
+
+The nodes of a binary tree can be visited in a variety of ways. The reverse inorder traversal uses a stack to sequence nodes correctly and results in the nodes being visited in descending order.
 
 **[Back to start](https://github.com/ccozad/python-playground)**

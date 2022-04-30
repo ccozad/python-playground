@@ -1,6 +1,6 @@
 import binary_tree
 
-def test_binary_search_tree_insert():
+def test_insert():
     binary_search_tree = binary_tree.BinarySearchTree()
     binary_search_tree.insert(5)
     binary_search_tree.insert(3)
@@ -10,7 +10,7 @@ def test_binary_search_tree_insert():
     assert binary_search_tree.root.left.data == 3
     assert binary_search_tree.root.right.data == 8
 
-def test_binary_search_tree_insert_duplicate():
+def test_insert_duplicate():
     binary_search_tree = binary_tree.BinarySearchTree()
     binary_search_tree.insert(5)
     binary_search_tree.insert(3)
@@ -23,7 +23,7 @@ def test_binary_search_tree_insert_duplicate():
     assert binary_search_tree.root.left.data == 3
     assert binary_search_tree.root.right.data == 8
 
-def test_binary_search_tree_find():
+def test_find():
     binary_search_tree = binary_tree.BinarySearchTree()
     binary_search_tree.insert(5)
     binary_search_tree.insert(3)
@@ -42,7 +42,7 @@ def test_binary_search_tree_find():
     assert result4 is None
     assert result5 is None
 
-def test_binary_search_tree_tree_min():
+def test_tree_min():
     binary_search_tree = binary_tree.BinarySearchTree()
     binary_search_tree.insert(5)
     binary_search_tree.insert(3)
@@ -57,7 +57,7 @@ def test_binary_search_tree_tree_min():
     
     assert min.data == 1
 
-def test_binary_search_tree_tree_max():
+def test_tree_max():
     binary_search_tree = binary_tree.BinarySearchTree()
     binary_search_tree.insert(5)
     binary_search_tree.insert(3)
@@ -72,7 +72,7 @@ def test_binary_search_tree_tree_max():
     
     assert max.data == 12
 
-def test_binary_search_tree_delete_shift_right():
+def test_shift_right():
     binary_search_tree = binary_tree.BinarySearchTree()
     binary_search_tree.insert(5)
     binary_search_tree.insert(8)
@@ -82,7 +82,7 @@ def test_binary_search_tree_delete_shift_right():
     
     assert binary_search_tree.root.data == 8
 
-def test_binary_search_tree_delete_shift_left():
+def test_delete_shift_left():
     binary_search_tree = binary_tree.BinarySearchTree()
     binary_search_tree.insert(5)
     binary_search_tree.insert(3)
@@ -92,7 +92,7 @@ def test_binary_search_tree_delete_shift_left():
     
     assert binary_search_tree.root.data == 3
 
-def test_binary_search_tree_delete_complex():
+def test_delete_complex():
     binary_search_tree = binary_tree.BinarySearchTree()
     binary_search_tree.insert(5)
     binary_search_tree.insert(3)
