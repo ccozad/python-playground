@@ -36,19 +36,19 @@ Here's what you can find here:
 
 ## [Algorithms](/algorithms/)
 - [Binary search](/algorithms/binary_search_client.py) an efficent search within sorted lists
-- [Binary Search Tree](/algorithms/binary_tree.py) a specially organized binary tree that allows divide and conquer searches
-- [Inorder Tree Traversal](/algorithms/binary_search_tree_walker.py) Traverse a binary search tree inorder to list nodes in sorted ascending order
+- [Binary search tree](/algorithms/binary_tree.py) a specially organized binary tree that allows divide and conquer searches
+- [Inorder tree traversal](/algorithms/binary_search_tree_walker.py) Traverse a binary search tree inorder to list nodes in sorted ascending order
 - [Merge sort](/algorithms/merge_sort_client.py) an efficient way to sort a list
-- [Reverse Inorder Tree Traversal](/algorithms/binary_search_tree_walker.py) Traverse a binary search tree in reverse inorder to list nodes in sorted descending order
+- [Reverse inorder tree traversal](/algorithms/binary_search_tree_walker.py) Traverse a binary search tree in reverse inorder to list nodes in sorted descending order
 
 ## [Azure](/azure/)
- - [Blob Storage](/azure/blob_storage/) ubiqutous file storage on Azure
+ - [Blob storage](/azure/blob_storage/) ubiqutous file storage on Azure
    - [Create container](/azure/blob_storage/create_container.py) 
    - [List containers](/azure/blob_storage/list_containers.py) 
    - [Upload blob](/azure/blob_storage/upload_blob.py) 
    - [List blobs](/azure/blob_storage/list_blobs.py) 
    - [Download blob](/azure/blob_storage/download_blob.py)
- - [Key Vault](/azure/key_vault/) secret storage and crypto operations on Azure
+ - [Key vault](/azure/key_vault/) secret storage and crypto operations on Azure
    - [Set secret](/azure/key_vault/set_secret.py)
    - [Get secret](/azure/key_vault/get_secret.py)
 
@@ -57,9 +57,9 @@ Here's what you can find here:
  - [Group data and then find statistics for each group](/data_science/stats_by_group.py)
 
 ## [Interview Questions](/interview_questions/)
- - [Fizz Buzz](/interview_questions/fizz_buzz.py) A test that makes sure you can apply simple rules and cover all cases
- - [Reverse Linked List](/interview_questions/reverse_linked_list.py) Reason about interactions with a data structure and carefully manipulate how the data is organized
- - [Swap Numbers](/interview_questions/swap_numbers.py) Write a few cryptic calculations to placate an interviewer trying to trick you
+ - [Fizz buzz](/interview_questions/fizz_buzz.py) A test that makes sure you can apply simple rules and cover all cases
+ - [Reverse linked list](/interview_questions/reverse_linked_list.py) Reason about interactions with a data structure and carefully manipulate how the data is organized
+ - [Swap numbers](/interview_questions/swap_numbers.py) Write a few cryptic calculations to placate an interviewer trying to trick you
 
 ## [Math](/math/)
  - [Multiply matrices](/math/multiply_matrices.py) Solve a system of linear equations using matrices
