@@ -68,6 +68,7 @@ Here's what you can find here:
 ## [Standard Library](/standard_library/)
  - [Base64 encode and decode](/standard_library/base64_example.py) A way to represent binary information using plain text
  - [JSON encode and decode](/standard_library/json_example.py) A way to share data structures across languages and systems
+- [Working with dates](/standard_library/datetime_example.py) Different ways to work with dates
 
 # Support
  - How do I request a change?
