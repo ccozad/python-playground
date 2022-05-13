@@ -4,7 +4,7 @@
 # 2. The same element can't be used twice
 # 3. The two indexes should be an array and can be in any order
 
-# Before we get into the solution, let rule out a few options
+# Before we get into the solution, let's rule out a few options
 # - We could just calculate all of the sums of every combination
 # but this would baloon in complexity as the number of list 
 # elements grew. So we need to find a way to simplify our search 

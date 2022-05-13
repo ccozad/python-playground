@@ -62,6 +62,7 @@ Here's what you can find here:
  - [Reverse linked list](/interview_questions/reverse_linked_list.py) Reason about interactions with a data structure and carefully manipulate how the data is organized
  - [Swap numbers](/interview_questions/swap_numbers.py) Write a few cryptic calculations to placate an interviewer trying to trick you
  - [Two Sum](/interview_questions/two_sum.py) Simplify the problem space to find two numbers in a list that add up to a given number
+ - [Valid Parens](/interview_questions/valid_parens.py) Check for valid brackets sequences by tracking nesting using a stack
 
 ## [Math](/math/)
  - [Multiply matrices](/math/multiply_matrices.py) Solve a system of linear equations using matrices
