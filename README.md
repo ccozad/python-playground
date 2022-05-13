@@ -61,6 +61,7 @@ Here's what you can find here:
  - [Fizz buzz](/interview_questions/fizz_buzz.py) A test that makes sure you can apply simple rules and cover all cases
  - [Reverse linked list](/interview_questions/reverse_linked_list.py) Reason about interactions with a data structure and carefully manipulate how the data is organized
  - [Swap numbers](/interview_questions/swap_numbers.py) Write a few cryptic calculations to placate an interviewer trying to trick you
+ - [Two Sum](/interview_questions/two_sum.py) Simplify the problem space to find two numbers in a list that add up to a given number
 
 ## [Math](/math/)
  - [Multiply matrices](/math/multiply_matrices.py) Solve a system of linear equations using matrices
