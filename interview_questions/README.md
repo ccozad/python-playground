@@ -4,6 +4,7 @@ This section has solutions to popular interview questions with a full break down
 
 # Topics
  - [Fizz Buzz](/interview_questions/fizz_buzz.py) A test that makes sure you can apply simple rules and cover all cases
+ - [Largest Common Prefix](/interview_questions/largest_common_prefix.py) Consider what it means to have a common prefix and carfully enumerate the collection and individual characters of each word
  - [Reverse Linked List](/interview_questions/reverse_linked_list.py) Reason about interactions with a data structure and carefully manipulate how the data is organized
  - [Swap Numbers](/interview_questions/swap_numbers.py) Write a few cryptic calculations to placate an interviewer trying to trick you
  - [Two Sum](/interview_questions/two_sum.py) Simplify the problem space to find two numbers in a list that add up to a given number
