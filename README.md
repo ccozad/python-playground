@@ -71,7 +71,14 @@ Here's what you can find here:
 ## [Standard Library](/standard_library/)
  - [Base64 encode and decode](/standard_library/base64_example.py) A way to represent binary information using plain text
  - [JSON encode and decode](/standard_library/json_example.py) A way to share data structures across languages and systems
-- [Working with dates](/standard_library/datetime_example.py) Different ways to work with dates
+ - [Universally Unique ID](/standard_library/uuid_example.py) A standards based mechanism for generating unique ids
+ - [Working with dates](/standard_library/datetime_example.py) Different ways to work with dates
+
+## [Web](/web/)
+ - [Flask](/web/flask/)
+   - [HTTP Methods](/web/flask/http_methods/app.py) A compact reference for using common HTTP methods such as GET, POST, PUT and DELETE
+ - Django
+   - Coming soon!
 
 # Support
  - How do I request a change?

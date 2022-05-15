@@ -10,5 +10,7 @@ All standard library examples are exercised by way of unit tests using PyTest. R
 
  - [Base64 encode and decode](/standard_library/base64_example.py) A way to represent binary information using plain text
  - [JSON encode and decode](/standard_library/json_example.py) A way to share data structures across languages and systems
+ - [Universally Unique ID](/standard_library/uuid_example.py) A standards based mechanism for generating unique ids
+ - [Working with dates](/standard_library/datetime_example.py) Different ways to work with dates
 
 **[Back to start](https://github.com/ccozad/python-playground)**
