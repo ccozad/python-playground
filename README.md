@@ -76,6 +76,7 @@ Here's what you can find here:
 
 ## [Web](/web/)
  - [Flask](/web/flask/)
+   - [File Uploads](/web/flask/file_uploads/app.py) A reference for uploading a file and saving it to a random name
    - [HTTP Methods](/web/flask/http_methods/app.py) A compact reference for using common HTTP methods such as GET, POST, PUT and DELETE
  - Django
    - Coming soon!
