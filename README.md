@@ -87,7 +87,7 @@ Here's what you can find here:
  - How fast will my request be added?
    - Probably not very fast for requests outside of a support package because this repo is maintained by a working professional
    - If you require fast, predictable responses, please purchase a support package
- - Can support package be purchased?
+ - Can support packages be purchased?
    - Yes, various support packages can be purchased and customized for your needs. Support areas available include:
    - On demand support videos
    - 1:1 and team coaching
