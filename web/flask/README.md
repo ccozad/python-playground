@@ -12,7 +12,7 @@ Flask is a light weight framework that aimes to keep the core simple but extensi
    - `.venv\Scripts\activate`
  - *Install dependencies*
    - `pip install -r requirements.txt`
- - *Change to specific add dir*
+ - *Change to specific app dir*
    - `cd <app>`
  - *Start the Flask app*
    - `flask run`
