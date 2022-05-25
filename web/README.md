@@ -7,6 +7,7 @@ There are a variety of ways to use Python to serve content over the web. Some ap
  - [Flask](/web/flask/)
    - [File Uploads](/web/flask/file_uploads/app.py) A reference for uploading a file and saving it to a random name
    - [HTTP Methods](/web/flask/http_methods/app.py) A compact reference for using common HTTP methods such as GET, POST, PUT and DELETE
+   - [SQL Database](/web/flask/sql_database/README.md) CRUD operations with a database over a REST API
  - [Django](/web/django/)
    - Coming soon!
 

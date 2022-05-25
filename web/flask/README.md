@@ -22,3 +22,4 @@ Flask is a light weight framework that aimes to keep the core simple but extensi
 # Topics
  - [File Uploads](/web/flask/file_uploads/app.py) A reference for uploading a file and saving it to a random name
  - [HTTP Methods](/web/flask/http_methods/app.py) A compact reference for using common HTTP methods such as GET, POST, PUT and DELETE
+ - [SQL Database](/web/flask/sql_database/README.md) CRUD operations with a database over a REST API
