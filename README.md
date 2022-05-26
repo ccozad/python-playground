@@ -67,6 +67,8 @@ Here's what you can find here:
 
 ## [Math](/math/)
  - [Multiply matrices](/math/multiply_matrices.py) Solve a system of linear equations using matrices
+ - [Pie Chart](/math/pie_chart.py) Use a math plotting library to create a pie chart and save it to a file
+
 
 ## [Standard Library](/standard_library/)
  - [Base64 encode and decode](/standard_library/base64_example.py) A way to represent binary information using plain text
