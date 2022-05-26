@@ -67,7 +67,7 @@ Here's what you can find here:
 
 ## [Math](/math/)
  - [Multiply matrices](/math/multiply_matrices.py) Solve a system of linear equations using matrices
- - [Pie Chart](/math/pie_chart.py) Use a math plotting library to create a pie chart and save it to a file
+ - [Pie chart](/math/pie_chart.py) Use a math plotting library to create a pie chart and save it to a file
 
 
 ## [Standard Library](/standard_library/)
@@ -78,9 +78,9 @@ Here's what you can find here:
 
 ## [Web](/web/)
  - [Flask](/web/flask/)
-   - [File Uploads](/web/flask/file_uploads/app.py) A reference for uploading a file and saving it to a random name
-   - [HTTP Methods](/web/flask/http_methods/app.py) A compact reference for using common HTTP methods such as GET, POST, PUT and DELETE
-   - [SQL Database](/web/flask/sql_database/README.md) CRUD operations with a database over a REST API
+   - [File uploads](/web/flask/file_uploads/app.py) A reference for uploading a file and saving it to a random name
+   - [HTTP methods](/web/flask/http_methods/app.py) A compact reference for using common HTTP methods such as GET, POST, PUT and DELETE
+   - [SQL database](/web/flask/sql_database/README.md) CRUD operations with a database over a REST API
  - Django
    - Coming soon!
 
