@@ -2,6 +2,7 @@ from tkinter import N
 from app import app
 from database import db
 from models.level import Level
+from common.generic_response import GenericResponse as gr
 import json
 
 from flask import request, Response
@@ -17,9 +18,9 @@ def all_levels():
                 db.session.commit()
                 return Response(json.dumps(level.to_dictionary(), indent=4), status=201, mimetype='application/json')
             else:
-                return Response(json.dumps({'status': 'bad request'}, indent=4), status=400, mimetype='application/json')
+                return gr.bad_request()
         else:
-            return Response(json.dumps({'status': 'bad request'}, indent=4), status=400, mimetype='application/json')
+            return gr.bad_request()
     
     elif request.method == 'GET':
         all_levels = []
@@ -38,7 +39,7 @@ def one_level(id):
         if level is not None:
             return Response(json.dumps(level.to_dictionary(), indent=4), status=200, mimetype='application/json')
         else:
-            return Response(json.dumps({'status': 'not found'}, indent=4), status=404, mimetype='application/json')
+            return gr.not_found()
     
     elif request.method == 'PUT':
         if level is not None:
@@ -49,16 +50,16 @@ def one_level(id):
                     db.session.commit()
                     return Response(json.dumps(level.to_dictionary(), indent=4), status=200, mimetype='application/json')
                 else:
-                    return Response(json.dumps({'status': 'bad request'}, indent=4), status=400, mimetype='application/json')
+                    return gr.bad_request()
             else:
-                return Response(json.dumps({'status': 'bad request'}, indent=4), status=400, mimetype='application/json')
+                return gr.bad_request()
         else:
-            return Response(json.dumps({'status': 'not found'}, indent=4), status=404, mimetype='application/json')
+            return gr.not_found()
     
     elif request.method == 'DELETE':
         if level is not None:
             db.session.delete(level)
             db.session.commit()
-            return Response(None, status=204, mimetype='application/json')
+            return gr.no_content()
         else:
-            return Response(json.dumps({'status': 'not found'}, indent=4), status=404, mimetype='application/json')
+            return gr.not_found()
