@@ -81,7 +81,7 @@ Here's what you can find here:
  - [Flask](/web/flask/)
    - [File uploads](/web/flask/file_uploads/app.py) A reference for uploading a file and saving it to a random name
    - [HTTP methods](/web/flask/http_methods/app.py) A compact reference for using common HTTP methods such as GET, POST, PUT and DELETE
-   - [SQL database](/web/flask/sql_database/README.md) CRUD operations with a database over a REST API
+   - [SQL database](/web/flask/sql_database/) CRUD operations with a database over a REST API
  - Django
    - Coming soon!
 
