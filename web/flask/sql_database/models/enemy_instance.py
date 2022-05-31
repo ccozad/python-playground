@@ -19,3 +19,14 @@ class EnemyInstance(db.Model):
 
     def __repr__(self):
         return '<EnemyInstance {},{}>'.format(repr(self.enemy), repr(self.level))
+    
+    def to_dictionary(self):
+        return {
+            "_id": str(self.id),
+            "x_location": self.x_location,
+            "y_location": self.y_location,
+            "z_location": self.z_location,
+            "current_health": self.current_health,
+            "enemy_id": str(self.enemy_id),
+            "level_id": str(self.level_id)
+        }
