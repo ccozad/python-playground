@@ -14,16 +14,14 @@ Each group of examples will typically require one or more environment variables 
 
 # Services
 
- - [Blob Storage](/azure/blob_storage/) ubiqutous file storage on Azure
+ - [Blob storage](/azure/blob_storage/) ubiqutous file storage on Azure
    - [Create container](/azure/blob_storage/create_container.py) 
-     - `python3 create_container.py`
    - [List containers](/azure/blob_storage/list_containers.py) 
-     - `python3 list_containers.py`
    - [Upload blob](/azure/blob_storage/upload_blob.py) 
-     - `python3 upload_blob.py`
    - [List blobs](/azure/blob_storage/list_blobs.py) 
-     - `python3 list_blobs.py`
-   - [Download blob](/azure/blob_storage/download_blob.py) 
-     - `python3 download_blob.py`
+   - [Download blob](/azure/blob_storage/download_blob.py)
+ - [Key vault](/azure/key_vault/) secret storage and crypto operations on Azure
+   - [Set secret](/azure/key_vault/set_secret.py)
+   - [Get secret](/azure/key_vault/get_secret.py)
 
 **[Back to start](https://github.com/ccozad/python-playground)**
