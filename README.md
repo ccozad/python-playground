@@ -43,7 +43,7 @@ Here's what you can find here:
 - [Reverse inorder tree traversal](/algorithms/binary_search_tree_walker.py) Traverse a binary search tree in reverse inorder to list nodes in sorted descending order
 
 ## [AWS](/aws/)
- - [Dynamodb](/aws/dynamodb/) fully managed NoSQL database service
+ - [DynamoDB](/aws/dynamodb/) fully managed NoSQL database service
    - [Create tables](/aws/dynamodb/create_tables.py) 
    - [List tables](/aws/dynamodb/list_tables.py) 
    - [Put items](/aws/dynamodb/put_items.py)
