@@ -11,5 +11,7 @@ AWS credentials must be configured before cals to the AWS APIs will work. You sh
  - [Dynamodb](/aws/dynamodb/) fully managed NoSQL database service
    - [Create tables](/aws/dynamodb/create_tables.py) 
    - [List tables](/aws/dynamodb/list_tables.py) 
+   - [Put items](/aws/dynamodb/put_items.py)
+   - [Scan items](/aws/dynamodb/scan_items.py)
 
 **[Back to start](https://github.com/ccozad/python-playground)**

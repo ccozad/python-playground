@@ -46,6 +46,8 @@ Here's what you can find here:
  - [Dynamodb](/aws/dynamodb/) fully managed NoSQL database service
    - [Create tables](/aws/dynamodb/create_tables.py) 
    - [List tables](/aws/dynamodb/list_tables.py) 
+   - [Put items](/aws/dynamodb/put_items.py)
+   - [Scan items](/aws/dynamodb/scan_items.py)
 
 ## [Azure](/azure/)
  - [Blob storage](/azure/blob_storage/) ubiqutous file storage on Azure

@@ -10,6 +10,8 @@ The recomended order to run things in this area is
 
  1. `create_tables.py`
  2. `list_tables.py`
+ 3. `put_items.py`
+ 4. `scan_items.py`
 
  # Key Terms
 
