@@ -42,6 +42,11 @@ Here's what you can find here:
 - [Merge sort](/algorithms/merge_sort_client.py) an efficient way to sort a list
 - [Reverse inorder tree traversal](/algorithms/binary_search_tree_walker.py) Traverse a binary search tree in reverse inorder to list nodes in sorted descending order
 
+## [AWS](/aws/)
+ - [Dynamodb](/aws/dynamodb/) fully managed NoSQL database service
+   - [Create tables](/aws/dynamodb/create_tables.py) 
+   - [List tables](/aws/dynamodb/list_tables.py) 
+
 ## [Azure](/azure/)
  - [Blob storage](/azure/blob_storage/) ubiqutous file storage on Azure
    - [Create container](/azure/blob_storage/create_container.py) 
