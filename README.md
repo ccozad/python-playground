@@ -66,6 +66,7 @@ Here's what you can find here:
 
 ## [Interview Questions](/interview_questions/)
  - [Fizz buzz](/interview_questions/fizz_buzz.py) A test that makes sure you can apply simple rules and cover all cases
+    - [Fizz Buzz Video Tutorial](https://www.youtube.com/watch?v=8Kc7iAyuIkU)
  - [Largest common prefix](/interview_questions/largest_common_prefix.py) Consider what it means to have a common prefix and carfully enumerate the collection and individual characters of each word
  - [Reverse linked list](/interview_questions/reverse_linked_list.py) Reason about interactions with a data structure and carefully manipulate how the data is organized
  - [Swap numbers](/interview_questions/swap_numbers.py) Write a few cryptic calculations to placate an interviewer trying to trick you
