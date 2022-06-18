@@ -6,6 +6,8 @@
 # Overview
  A collection of random Python solutions. If anything helps you here please give this repo a star.
 
+ See commentary and other material on the [Think Create Repeat YouTube Channel](https://www.youtube.com/channel/UC1g9I6VprOjOn48jWC0mzmA)
+
 # General Setup
 It's recommended that you use a virtual environment to run each group of scripts. Each folder has its own requirements.txt file. the process for setting up your environment look like
 
@@ -24,6 +26,8 @@ It's recommended that you use a virtual environment to run each group of scripts
    - On Windows: `python <script_name>.py`
  - *Deactivate virtual environment*
    - `deactivate`
+
+See this video for additional commentary on [Python Dev Environment Setup](https://www.youtube.com/watch?v=tk5WHjVuC4Q)
 
 # Testing
 
