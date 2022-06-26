@@ -34,6 +34,8 @@ def all_students():
             storage['students'][str(id)] = body
             # Return the resource that was just created
             return Response(json.dumps(body, indent=4), status=201, mimetype='application/json')
+        else:
+            return Response(json.dumps({'status': 'bad request'}, indent=4), status=400, mimetype='application/json')
     elif request.method == 'GET':
         all_students = []
         # Add all the items in the students dictionary to a list
@@ -49,7 +51,7 @@ def one_student(id):
             return Response(json.dumps(storage['students'][id], indent=4), status=200, mimetype='application/json')
         else:
             return Response(json.dumps({'status': 'not found'}, indent=4), status=404, mimetype='application/json')
-    elif request.method == 'PUT':
+    elif request.method == 'PATCH':
         if id in storage['students']:
             body = request.get_json(silent=True)
             if body is not None:
@@ -61,7 +63,7 @@ def one_student(id):
                 storage['students'][id] = body
                 return Response(json.dumps(body, indent=4), status=200, mimetype='application/json')
             else:
-                return Response(json.dumps({'status': 'not found'}, indent=4), status=404, mimetype='application/json')
+                return Response(json.dumps({'status': 'bad request'}, indent=4), status=400, mimetype='application/json')
         else:
             return Response(json.dumps({'status': 'not found'}, indent=4), status=404, mimetype='application/json')
     elif request.method == 'DELETE':
