@@ -69,7 +69,7 @@ Here's what you can find here:
  - [Load CSV into a pandas dataframe](/data_science/load_csv.py) 
  - [Group data and then find statistics for each group](/data_science/stats_by_group.py)
 
-## Games
+## [Games](/games/)
  - Boards
    - [2D Grid](/games/boards/grid_2d.py) A simple representation of a 2D grid board that can be used for games like tic-tac-toe or checkers
  - Cards
