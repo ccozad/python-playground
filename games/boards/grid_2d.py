@@ -2,7 +2,7 @@ from typing import Any
 
 
 class Grid2D:
-    def __init__(self, width: int, height: int, initial_value):
+    def __init__(self, width: int, height: int, initial_value: Any):
         self.width = width
         self.height = height
         self.board = [initial_value] * (width * height)
@@ -26,10 +26,4 @@ class Grid2D:
                 return
         else:
             return
-    
-    def print(self,separator = ", "):
-        for row in self.height:
-            start = row * self.width
-            print(separator.join(self.board[start, start + self.width]))
-            
 
