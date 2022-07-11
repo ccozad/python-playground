@@ -69,6 +69,14 @@ Here's what you can find here:
  - [Load CSV into a pandas dataframe](/data_science/load_csv.py) 
  - [Group data and then find statistics for each group](/data_science/stats_by_group.py)
 
+## Games
+ - Boards
+   - [2D Grid](/games/boards/grid_2d.py) A simple representation of a 2D grid board that can be used for games like tic-tac-toe or checkers
+ - Cards
+   - [Card Deck](/games/cards/card_deck.py) A collection of cards that can be shuffled and dealt
+   - [Card Deck Factory](/games/cards/card_deck_factory.py) A simplified way to construct various types of card decks
+   - [Playing Card](/games/cards/playing_card.py) A representation of a standard playing card
+
 ## [Interview Questions](/interview_questions/)
  - [Fizz buzz](/interview_questions/fizz_buzz.py) A test that makes sure you can apply simple rules and cover all cases
     - [Fizz buzz video tutorial](https://www.youtube.com/watch?v=8Kc7iAyuIkU)
