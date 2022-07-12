@@ -71,11 +71,14 @@ Here's what you can find here:
 
 ## [Games](/games/)
  - Boards
-   - [2D Grid](/games/boards/grid_2d.py) A simple representation of a 2D grid board that can be used for games like tic-tac-toe or checkers
+   - [2D grid](/games/boards/grid_2d.py) A simple representation of a 2D grid board that can be used for games like tic-tac-toe or checkers
+   - [Tic-tac-toe board](/games/boards/tic_tac_toe_board.py) A board based on a 2D Grid that is specialized for the rules of tic-tac-toe
  - Cards
-   - [Card Deck](/games/cards/card_deck.py) A collection of cards that can be shuffled and dealt
-   - [Card Deck Factory](/games/cards/card_deck_factory.py) A simplified way to construct various types of card decks
-   - [Playing Card](/games/cards/playing_card.py) A representation of a standard playing card
+   - [Card deck](/games/cards/card_deck.py) A collection of cards that can be shuffled and dealt
+   - [Card deck factory](/games/cards/card_deck_factory.py) A simplified way to construct various types of card decks
+   - [Playing card](/games/cards/playing_card.py) A representation of a standard playing card
+ - Clients
+   - [Tic-tac-toe client](/games/game_clients/tic_tac_toe_client.py) Play tic-tac-toe using a simple command line client
 
 ## [Interview Questions](/interview_questions/)
  - [Fizz buzz](/interview_questions/fizz_buzz.py) A test that makes sure you can apply simple rules and cover all cases

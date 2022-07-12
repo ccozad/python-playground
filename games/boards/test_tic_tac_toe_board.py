@@ -104,3 +104,50 @@ def test_no_winner():
     tttb.board[0] = "X"
 
     assert tttb.winner() == None
+
+def test_is_cell_open():
+    tttb = TicTacToeBoard()
+
+    assert tttb.is_cell_open(0,0) == True
+    assert tttb.is_cell_open(0,1) == True
+    assert tttb.is_cell_open(0,2) == True
+    assert tttb.is_cell_open(1,0) == True
+    assert tttb.is_cell_open(1,1) == True
+    assert tttb.is_cell_open(1,2) == True
+    assert tttb.is_cell_open(2,0) == True
+    assert tttb.is_cell_open(2,1) == True
+    assert tttb.is_cell_open(2,2) == True
+
+    tttb.board[0] = "O"
+
+    assert tttb.is_cell_open(0,0) == False
+
+def test_is_cats_game():
+    tttb = TicTacToeBoard()
+    tttb.board[2] = "O"
+    tttb.board[4] = "O"
+    tttb.board[1] = "X"
+    tttb.board[0] = "X"
+
+    assert tttb.is_cats_game() == False
+
+    tttb.board[0] = "O"
+    tttb.board[1] = "X"
+    tttb.board[2] = "O"
+    tttb.board[3] = "O"
+    tttb.board[4] = "X"
+    tttb.board[5] = "O"
+    tttb.board[6] = "X"
+    tttb.board[7] = "O"
+    tttb.board[8] = "X"
+
+    assert tttb.is_cats_game() == True
+
+    tttb2 = TicTacToeBoard()
+    tttb2.board[2] = "O"
+    tttb2.board[4] = "O"
+    tttb2.board[6] = "O"
+    tttb2.board[1] = "X"
+    tttb2.board[0] = "X"
+
+    assert tttb2.is_cats_game() == False

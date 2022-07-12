@@ -5,8 +5,13 @@ class TicTacToeBoard(Grid2D):
         super().__init__(3, 3, "?")
     
     def is_cats_game(self) -> bool:
-        # TODO Implement
-        return False
+        if self.winner() is None:
+            if "?" in self.board:
+                return False
+            else:
+                return True
+        else:
+            return False
     
     def is_cell_open(self, row: int, column: int):
         if row >=0 and row < 3 and column >= 0 and column <= 3:
@@ -15,7 +20,8 @@ class TicTacToeBoard(Grid2D):
             return False
     
     def make_move(self, turn: str, row: int, column: int):
-        self.board[row * 3 + column] = turn
+        if self.is_cell_open(row, column):
+            self.board[row * 3 + column] = turn
     
     def winner(self) -> None | str:
         # Row 0
@@ -68,9 +74,10 @@ class TicTacToeBoard(Grid2D):
     
     def __str__(self):
         board_state = []
-        board_state.append(" {} | {} | {}".format(self.board[0], self.board[1], self.board[2])) 
-        board_state.append("---+---+---")
-        board_state.append(" {} | {} | {}".format(self.board[3], self.board[4], self.board[5]))
-        board_state.append("---+---+---")
-        board_state.append(" {} | {} | {}".format(self.board[6], self.board[7], self.board[8]))
+        board_state.append("   0   1   2")
+        board_state.append("0  {} | {} | {}".format(self.board[0], self.board[1], self.board[2])) 
+        board_state.append("  ---+---+---")
+        board_state.append("1  {} | {} | {}".format(self.board[3], self.board[4], self.board[5]))
+        board_state.append("  ---+---+---")
+        board_state.append("2  {} | {} | {}".format(self.board[6], self.board[7], self.board[8]))
         return "\n".join(board_state)
