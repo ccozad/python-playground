@@ -104,8 +104,8 @@ Here's what you can find here:
 
 ## [Video](/video/)
  - [Extract frames from a video](/video/extract_video_frames.py) Use OpenCV to extract frames from a video
- - [Extract frames from a video and change aspect ratio](/video/extract_video_frames2.py) Use OpenCV to not only extract frames but modify the aspect ratio from the original video.
  - [Combine images into a video](/video/video_from_images.py) Use OpenCV to combine images into a video file
+ - [List video properties](/video/video_properties.py) Use OpenCV to list properties such as frame rate, width, height and total frames
 
 ## [Web](/web/)
  - [Flask](/web/flask/)
