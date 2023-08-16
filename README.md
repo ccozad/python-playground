@@ -99,8 +99,14 @@ Here's what you can find here:
 ## [Standard Library](/standard_library/)
  - [Base64 encode and decode](/standard_library/base64_example.py) A way to represent binary information using plain text
  - [JSON encode and decode](/standard_library/json_example.py) A way to share data structures across languages and systems
+ - [Process command line arguments](/standard_library/argparse_example.py) Parse command line arguments using argparse
  - [Universally Unique ID](/standard_library/uuid_example.py) A standards based mechanism for generating unique ids
  - [Working with dates](/standard_library/datetime_example.py) Different ways to work with dates
+
+## [Video](/video/)
+ - [Extract frames from a video](/video/extract_video_frames.py) Use OpenCV to extract frames from a video
+ - [Combine images into a video](/video/video_from_images.py) Use OpenCV to combine images into a video file
+ - [List video properties](/video/video_properties.py) Use OpenCV to list properties such as frame rate, width, height and total frames
 
 ## [Web](/web/)
  - [Flask](/web/flask/)
