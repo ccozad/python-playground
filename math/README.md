@@ -9,7 +9,7 @@ Python has a wide variety of built in math functions and a wide variety of math 
  - [Plot Vectors](/math/plot_vectors.py) Use a math plotting library to plot and annotate vectors
 
 # Example Results
-![Pie Chart](./images/activity.png?raw=true "Pie Chart")
-![Plot Vectors](./images/vector-magnitude.png?raw=true "Plot Vectors")
+![Pie Chart](/images/activity.png?raw=true "Pie Chart")
+![Plot Vectors](/images/vector-magnitude.png?raw=true "Plot Vectors")
 
 **[Back to start](https://github.com/ccozad/python-playground)**
