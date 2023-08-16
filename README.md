@@ -93,6 +93,7 @@ Here's what you can find here:
  - [Break even graph](/math/break_even_chart.py) Visualize where sales break even with costs
  - [Multiply matrices](/math/multiply_matrices.py) Solve a system of linear equations using matrices
  - [Pie chart](/math/pie_chart.py) Use a math plotting library to create a pie chart and save it to a file
+ - [Plot Vectors](/math/plot_vectors.py) Use a math plotting library to plot and annotate vectors
 
 
 ## [Standard Library](/standard_library/)
