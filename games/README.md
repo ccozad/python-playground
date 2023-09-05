@@ -13,6 +13,55 @@ Python is a general purpose language that allows one to easily model the game st
    - [Playing card](/games/cards/playing_card.py) A representation of a standard playing card
  - Clients
    - [Tic-tac-toe client](/games/game_clients/tic_tac_toe_client.py) Play tic-tac-toe using a simple command line client
+ - Other
+   - [Runiks Cube Simulator](/games/rubiks_cube/rubiks-cube-2x2.py) Simulate moves on a 2x2 Rubik's cube
+
+# Rubik's Cube Simulator
+
+Run the simulator using an input file with a list of moves.
+
+```
+% cd gmaes/rubiks_cube
+% python3 rubiks-cube-2x2.py --input moves-1.txt 
+
+Start
+G G
+G G
+
+U
+R R
+G G
+
+R
+R Y
+G Y
+
+R
+R B
+G O
+
+D
+R B
+O O
+
+D
+R B
+R B
+
+L
+W B
+W B
+
+U
+R R
+W B
+
+U
+G W
+W B
+
+End
+```
 
 # Game Client Usage
 

@@ -20,7 +20,8 @@ It's recommended that you use a virtual environment to run each group of scripts
    - On Mac: `source .venv/bin/activate`
    - On Windows: `.venv\Scripts\activate`
  - *Install dependencies*
-   - `pip install -r requirements.txt`
+   - On Mac: `pip install -r requirements.txt`
+   - On Windoes: `pip install -r requirements.txt`
  - *Call a specific script*
    - On Mac: `python3 <script_name>.py`
    - On Windows: `python <script_name>.py`
@@ -31,8 +32,15 @@ See this video for additional commentary on [Python Dev Environment Setup](https
 
 # Testing
 
- - *Install pytest*
-   - `pip3 install -U pytest`
+ - *Create a virtual environment*
+   - On Mac: `python3 -m venv .venv`
+   - On Windows: `python -m venv .venv`
+ - *Activate the virtual environment
+   - On Mac: `source .venv/bin/activate`
+   - On Windows: `.venv\Scripts\activate`
+ - *Install dependencies*
+   - On Mac: `pip install -r requirements.txt`
+   - On Windoes: `pip install -r requirements.txt`
  - *Run tests*
    - `pytest -rA`
 
@@ -79,6 +87,8 @@ Here's what you can find here:
    - [Playing card](/games/cards/playing_card.py) A representation of a standard playing card
  - Clients
    - [Tic-tac-toe client](/games/game_clients/tic_tac_toe_client.py) Play tic-tac-toe using a simple command line client
+ - Other
+   - [Runiks Cube Simulator](/games/rubiks_cube/rubiks-cube-2x2.py) Simulate moves on a 2x2 Rubik's cube
 
 ## [Interview Questions](/interview_questions/)
  - [Fizz buzz](/interview_questions/fizz_buzz.py) A test that makes sure you can apply simple rules and cover all cases
