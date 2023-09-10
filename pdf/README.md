@@ -9,4 +9,8 @@ These examples show how to work with PDF document in Python
 
 `python3 extract_pages.py --input <path to pdf> --output ./output`
 
+# Resources
+
+ - https://pymupdf.readthedocs.io/en/latest/index.html
+
 **[Back to start](https://github.com/ccozad/python-playground)**
