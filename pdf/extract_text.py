@@ -1,7 +1,7 @@
 import os
 import fitz
 import argparse
-parser = argparse.ArgumentParser(description="Enumerate the pages in a PDF file")
+parser = argparse.ArgumentParser(description="Extract text from each page a PDF file")
 
 def main():
     parser.add_argument("-i", "--input", help="the PDF file to enumerate")
