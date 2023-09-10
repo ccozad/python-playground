@@ -20,7 +20,7 @@ It's recommended that you use a virtual environment to run each group of scripts
    - On Mac: `source .venv/bin/activate`
    - On Windows: `.venv\Scripts\activate`
  - *Install dependencies*
-   - On Mac: `pip install -r requirements.txt`
+   - On Mac: `pip3 install -r requirements.txt`
    - On Windoes: `pip install -r requirements.txt`
  - *Call a specific script*
    - On Mac: `python3 <script_name>.py`
@@ -106,6 +106,8 @@ Here's what you can find here:
  - [Pie chart](/math/pie_chart.py) Use a math plotting library to create a pie chart and save it to a file
  - [Plot Vectors](/math/plot_vectors.py) Use a math plotting library to plot and annotate vectors
 
+## [PDF](/pdf/)
+ - [Extract pages from a pdf](/pdf/extract_pages.py) Use pyMuPDF to extract all pages and render the contents as an image
 
 ## [Standard Library](/standard_library/)
  - [Base64 encode and decode](/standard_library/base64_example.py) A way to represent binary information using plain text
