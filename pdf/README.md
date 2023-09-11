@@ -28,5 +28,6 @@ These examples show how to work with PDF document in Python
 # Resources
 
  - https://pymupdf.readthedocs.io/en/latest/index.html
+ - https://opensource.adobe.com/dc-acrobat-sdk-docs/standards/pdfstandards/pdf/PDF32000_2008.pdf
 
 **[Back to start](https://github.com/ccozad/python-playground)**
