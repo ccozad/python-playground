@@ -9,10 +9,21 @@ These examples show how to work with PDF document in Python
  - [Extract text from a pdf](/pdf/extract_text.py) Use pyMuPDF to extract text from all pages
  
 
+# Extract Images Usage
+
+`python3 extract_images.py --input <path to pdf> --output ./output-images`
+
+# Extract Metadata Usage
+
+`python3 extract_metadata.py --input <path to pdf>`
 
 # Extract Pages Usage
 
-`python3 extract_pages.py --input <path to pdf> --output ./output`
+`python3 extract_pages.py --input <path to pdf> --output ./output --dpi 300`
+
+# Extract Text Usage
+
+`python3 extract_test.py --input <path to pdf> --output ./output`
 
 # Resources
 
