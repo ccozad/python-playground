@@ -11,7 +11,7 @@
 # General Setup
 It's recommended that you use a virtual environment to run each group of scripts. Each folder has its own requirements.txt file. the process for setting up your environment look like
 
- - Move to the topic folder*
+ - Move to the topic folder
    - `cd <topic_folder>`
  - Create a virtual environment
    - On Mac: `python3 -m venv .venv`
