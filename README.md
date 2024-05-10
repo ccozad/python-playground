@@ -11,21 +11,21 @@
 # General Setup
 It's recommended that you use a virtual environment to run each group of scripts. Each folder has its own requirements.txt file. the process for setting up your environment look like
 
- - *Move to the topic folder*
+ - Move to the topic folder*
    - `cd <topic_folder>`
- - *Create a virtual environment*
+ - Create a virtual environment
    - On Mac: `python3 -m venv .venv`
    - On Windows: `python -m venv .venv`
- - *Activate the virtual environment
+ - Activate the virtual environment
    - On Mac: `source .venv/bin/activate`
    - On Windows: `.venv\Scripts\activate`
- - *Install dependencies*
+ - Install dependencies
    - On Mac: `pip3 install -r requirements.txt`
-   - On Windoes: `pip install -r requirements.txt`
- - *Call a specific script*
+   - On Windows: `pip install -r requirements.txt`
+ - Call a specific script
    - On Mac: `python3 <script_name>.py`
    - On Windows: `python <script_name>.py`
- - *Deactivate virtual environment*
+ - Deactivate virtual environment
    - `deactivate`
 
 See this video for additional commentary on [Python Dev Environment Setup](https://www.youtube.com/watch?v=tk5WHjVuC4Q)
