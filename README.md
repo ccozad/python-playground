@@ -88,7 +88,7 @@ Here's what you can find here:
  - Clients
    - [Tic-tac-toe client](/games/game_clients/tic_tac_toe_client.py) Play tic-tac-toe using a simple command line client
  - Other
-   - [Runiks Cube Simulator](/games/rubiks_cube/rubiks-cube-2x2.py) Simulate moves on a 2x2 Rubik's cube
+   - [Rubiks Cube Simulator](/games/rubiks_cube/rubiks-cube-2x2.py) Simulate moves on a 2x2 Rubik's cube
 
 ## [Interview Questions](/interview_questions/)
  - [Fizz buzz](/interview_questions/fizz_buzz.py) A test that makes sure you can apply simple rules and cover all cases
