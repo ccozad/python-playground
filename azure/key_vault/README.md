@@ -12,7 +12,7 @@ Change `example.env` to `.env`
 
 # Execution Order
 
-All of the examples have guards if they are run before preconditions are met. The recomended order to run things and have something actually happen is
+All of the examples have guards if they are run before preconditions are met. The recommended order to run things and have something actually happen is
 
  1. `set_secret.py`
  2. `get_secret.py`
