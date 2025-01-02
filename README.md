@@ -40,7 +40,7 @@ See this video for additional commentary on [Python Dev Environment Setup](https
    - On Windows: `.venv\Scripts\activate`
  - *Install dependencies*
    - On Mac: `pip install -r requirements.txt`
-   - On Windoes: `pip install -r requirements.txt`
+   - On Windows: `pip install -r requirements.txt`
  - *Run tests*
    - `pytest -rA`
 
@@ -48,7 +48,7 @@ See this video for additional commentary on [Python Dev Environment Setup](https
 Here's what you can find here:
 
 ## [Algorithms](/algorithms/)
-- [Binary search](/algorithms/binary_search_client.py) an efficent search within sorted lists
+- [Binary search](/algorithms/binary_search_client.py) an efficient search within sorted lists
 - [Binary search tree](/algorithms/binary_tree.py) a specially organized binary tree that allows divide and conquer searches
 - [Hamming distance](/algorithms/hamming_distance.py) Number of positions in which symbols differ for two equal length strings
 - [Inorder tree traversal](/algorithms/binary_search_tree_walker.py) Traverse a binary search tree inorder to list nodes in sorted ascending order
@@ -76,6 +76,10 @@ Here's what you can find here:
 ## [Data Science](/data_science/)
  - [Load CSV into a pandas dataframe](/data_science/load_csv.py) 
  - [Group data and then find statistics for each group](/data_science/stats_by_group.py)
+
+## Databases
+ - [Neo4j](/databases/neo4j/)
+   - [Run a simple query against Neo4j](/databases/neo4j/simple.py)
 
 ## [Games](/games/)
  - Boards
