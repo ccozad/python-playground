@@ -76,6 +76,7 @@ Here's what you can find here:
 ## [Data Science](/data_science/)
  - [Load CSV into a pandas dataframe](/data_science/load_csv.py) 
  - [Group data and then find statistics for each group](/data_science/stats_by_group.py)
+ - [Sum every column](/data_science/sum_columns.py) Load data and sum all columns
 
 ## Databases
  - [Neo4j](/databases/neo4j/)
